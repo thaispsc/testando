@@ -13,11 +13,11 @@ White Label Landing Page.
 <br />
 
 <a name="site"></a>
-## 💻 Site
+## 💻 Demo
 
 https://infratoken-client-git-develop-inspireip.vercel.app/
 
-<br />
+![G2CAPITAL](https://github.com/thaispsc/testando/assets/94868398/66579d99-1368-47d3-8920-5e9c1a8c7e93)
 
 <a name="rodando-o-backend"></a>
 ## 🚀 Running the project
@@ -27,8 +27,14 @@ https://infratoken-client-git-develop-inspireip.vercel.app/
 ### Cloning the repository
 
 ```
+## SSH
+git@github.com:emanagroup/infratoken-client.git
+
 ## HTTPS
-https://github.com/bc-fullstack-03/thais-cavalcante-frontend.git
+https://github.com/emanagroup/infratoken-client.git
+
+## GitHub CLI
+gh repo clone emanagroup/infratoken-client
 ```
 
 ### Setting the environment variables
@@ -36,13 +42,30 @@ https://github.com/bc-fullstack-03/thais-cavalcante-frontend.git
 Before running the project, create a .env file at the root directory.
 
 ```
-MY_ENV_VAR=
-MY_ENV_VAR2=
+# API URL
+NEXT_PUBLIC_API_URL=https://test.infratoken.inspireip.io/platform
+
+# NextAuth URL
+NEXTAUTH_URL=http://localhost:3000
+NEXTAUTH_SECRET=OYVEARm3THWOaUlIOrFx0J5LvAlbIKxiNuh9wWd9Pfs
+
+# Google OAuth
+GOOGLE_ID=214905682731-7ku2hdigfg3g2t03ufkgmahdkr5e9umh.apps.googleusercontent.com
+GOOGLE_SECRET=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
+NEXT_PUBLIC_API_GOOGLE_SECRET=SmhP2JcgNNjROcwZDCz1OFD+lkmlIiLJsZxlQaJ8cKM=
+
+# API URL
+NEXT_PUBLIC_API_URL=
+
+# NextAuth URL
+NEXTAUTH_URL=
+NEXTAUTH_SECRET=
+
+# Google OAuth
+GOOGLE_ID=
+GOOGLE_SECRET=
+NEXT_PUBLIC_API_GOOGLE_SECRET=
 ```
-
-You can get `MY_ENV_VAR` from ...
-
-You can get `MY_ENV_VAR2` from ...
 
 
 </br>
