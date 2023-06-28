@@ -36,15 +36,11 @@ Once the repository is cloned, navigate to the project folder using the terminal
 
     npm install
 
-This command will download and install all the necessary dependencies required for the project.
-
 </br>
 
 After the installation is complete, you can start the local development server:
 
     npm run dev
-
-This command will start the development server, and you should see output indicating that the server is running.
 
 </br>
 
@@ -69,5 +65,7 @@ GOOGLE_ID=<your_google_id>
 GOOGLE_SECRET=<your_google_secret>
 NEXT_PUBLIC_API_GOOGLE_SECRET=<your_api_google_secret>
 ```
+
+</br>
 
 Replace `<your_api_url>`, `<your_nextauth_url>`, `<your_nextauth_secret>`, `<your_google_id>`, `<your_google_secret>`, and `<your_api_google_secret>` with the corresponding values for your setup.
