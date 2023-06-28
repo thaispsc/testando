@@ -22,26 +22,39 @@
 
 The G2 Capital project aims to democratize investments in renewable energy, ensuring a profitable asset and a sustainable energy future. Our commitment to investors goes beyond, as we offer complete legal support and ensure profitability through the leasing of solar power plants and the sale of energy to major market players.
 
+</br>
+
 ## Cloning the repository and runing locally
 
+Clone the repository by running the following command in your terminal:
 ```console
 git clone https://github.com/emanagroup/infratoken-client.git
 ```
+</br>
 
-Se você preferir executá-lo diretamente em sua máquina local, é fundamental utilizar um ambiente virtual.
+Once the repository is cloned, navigate to the project folder using the terminal and install the project dependencies:
 
     npm install
 
-Se você preferir executá-lo diretamente em sua máquina local, é fundamental utilizar um ambiente virtual.
+This command will download and install all the necessary dependencies required for the project.
+
+</br>
+
+After the installation is complete, you can start the local development server:
 
     npm run dev
 
-Agora você pode acessar em:
-http://localhost:3000/
+This command will start the development server, and you should see output indicating that the server is running.
+
+</br>
+
+Open your web browser and visit http://localhost:3000 to see the result. The application should be up and running locally on your machine.
+
+</br>
 
 ## Setting the environment variables
 
-Before running the project, create a .env file at the root directory.
+Before running the project you need to set up environment variables. Create a .env file at the root directory and add the following variables:
 
 ```
 # API URL
@@ -56,3 +69,5 @@ GOOGLE_ID=<your_google_id>
 GOOGLE_SECRET=<your_google_secret>
 NEXT_PUBLIC_API_GOOGLE_SECRET=<your_api_google_secret>
 ```
+
+Replace `<your_api_url>`, `<your_nextauth_url>`, `<your_nextauth_secret>`, `<your_google_id>`, `<your_google_secret>`, and `<your_api_google_secret>` with the corresponding values for your setup.
