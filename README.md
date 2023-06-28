@@ -1,109 +1,58 @@
+<h1 align="center">
+  <img src="https://res.cloudinary.com/dnqiosdb6/image/upload/v1687889673/g2-cover-github_fwpw6w.png" alt="g2-capital">
+</h1>
 <p align="center">
- <h1 align="center" style="font-size:40px">G2CAPITAL</h1>
+  <p align="center">The project is an investment opportunity in renewable energy, through the acquisition of CCB titles to finance the development of solar power plants.</p>
 </p>
-<img src="https://res.cloudinary.com/dnqiosdb6/image/upload/v1687889673/g2-cover-github_fwpw6w.png" />
 
-<a name="descrição"></a>
-## 🧾 Description
+<h4 align="center">
+ <p align="center">
+   <img src="https://img.shields.io/badge/next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white" alt="NextJS" style="border-radius: 4px; height: 24px">
+   <img src="https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white" alt="Typescript" style="border-radius: 4px; height: 24px">
+   <img src="https://img.shields.io/badge/Jest-323330?style=for-the-badge&logo=Jest&logoColor=white" alt="jest" style="border-radius: 4px; height: 24px">
+   <img src="https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white" alt="Figma" style="border-radius: 4px; height: 24px">
+</p>
+</h4>
 
-**FRONTEND - G2CAPITAL.**
+<img src="https://res.cloudinary.com/dnqiosdb6/image/upload/v1687954028/G2_Capital_Investimentos_em_Startups_wlm8v7.png" width="100%" alt="Dashboard" />
 
-White Label Landing Page.
+## Introduction
 
-<br />
+**[G2 Capital](https://g2-capital-lp-git-develop-inspireip.vercel.app/)** is a revolutionary project that focuses on investments in renewable energy. It allows investors to acquire CCB titles issued by a TMX Energy SPE, an experienced company in the renewable energy sector.
 
-<a name="site"></a>
-## 💻 Demo
+The G2 Capital project aims to democratize investments in renewable energy, ensuring a profitable asset and a sustainable energy future. Our commitment to investors goes beyond, as we offer complete legal support and ensure profitability through the leasing of solar power plants and the sale of energy to major market players.
 
-https://infratoken-client-git-develop-inspireip.vercel.app/
+## Cloning the repository and runing locally
 
-![G2CAPITAL](https://github.com/thaispsc/testando/assets/94868398/66579d99-1368-47d3-8920-5e9c1a8c7e93)
-
-<a name="rodando-o-backend"></a>
-## 🚀 Running the project
-
-
-
-### Cloning the repository
-
-```
-## SSH
-git@github.com:emanagroup/infratoken-client.git
-
-## HTTPS
-https://github.com/emanagroup/infratoken-client.git
-
-## GitHub CLI
-gh repo clone emanagroup/infratoken-client
+```console
+git clone https://github.com/emanagroup/infratoken-client.git
 ```
 
-### Setting the environment variables
+Se você preferir executá-lo diretamente em sua máquina local, é fundamental utilizar um ambiente virtual.
+
+    npm install
+
+Se você preferir executá-lo diretamente em sua máquina local, é fundamental utilizar um ambiente virtual.
+
+    npm run dev
+
+Agora você pode acessar em:
+http://localhost:3000/
+
+## Setting the environment variables
 
 Before running the project, create a .env file at the root directory.
 
 ```
 # API URL
-NEXT_PUBLIC_API_URL=https://test.infratoken.inspireip.io/platform
+NEXT_PUBLIC_API_URL=<your_api_url>
 
 # NextAuth URL
-NEXTAUTH_URL=http://localhost:3000
-NEXTAUTH_SECRET=OYVEARm3THWOaUlIOrFx0J5LvAlbIKxiNuh9wWd9Pfs
+NEXTAUTH_URL=<your_nextauth_url>
+NEXTAUTH_SECRET=<your_nextauth_secret>
 
 # Google OAuth
-GOOGLE_ID=214905682731-7ku2hdigfg3g2t03ufkgmahdkr5e9umh.apps.googleusercontent.com
-GOOGLE_SECRET=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
-NEXT_PUBLIC_API_GOOGLE_SECRET=SmhP2JcgNNjROcwZDCz1OFD+lkmlIiLJsZxlQaJ8cKM=
-
-# API URL
-NEXT_PUBLIC_API_URL=
-
-# NextAuth URL
-NEXTAUTH_URL=
-NEXTAUTH_SECRET=
-
-# Google OAuth
-GOOGLE_ID=
-GOOGLE_SECRET=
-NEXT_PUBLIC_API_GOOGLE_SECRET=
+GOOGLE_ID=<your_google_id>
+GOOGLE_SECRET=<your_google_secret>
+NEXT_PUBLIC_API_GOOGLE_SECRET=<your_api_google_secret>
 ```
-
-
-</br>
-
-
-### Requirements
-
-- Updated Browser (Chrome, Firefox, Safari, Edge)
-- Node.js v16.16.0+
-</br>
-
-### Instalando as dependências
-
-```
-npm install
-```
-<a name="rodando"></a>
-### Running
-
-```
-npm run dev
-```
-
-<br />
-
-Open http://localhost:3000 with your browser to see the result.
-
-<br />
-
-<a name="tests"></a>
-## 🧪 Tests
-
-This project has tests written using Jest and React Testing Library.
-
-### Running the tests
-
-```
-npm run test
-```
-
-<br />
